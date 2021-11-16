@@ -73,6 +73,7 @@ class UserList extends StatelessWidget {
                       style: TextStyle(fontSize: 12.0, color: Colors.white)))
             ]),
             Column(children: [
+              CircularProgressIndicator()
               Container(
                   margin: EdgeInsets.all(10),
                   padding: EdgeInsets.all(5),
